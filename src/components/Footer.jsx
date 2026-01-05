@@ -1,6 +1,6 @@
 import { Logo } from "./ui/Logo";
 import { SocialIcon } from "./ui/SocialIcon";
-import { SOCIAL_LINKS } from "../constants/SocialmediaHandles";
+import { SOCIAL_LINKS } from "../constants/socialmediaHandles";
 import { IMPORTANT_LINKS } from "../constants/importantLinks";
 import { ImportantLink } from "./ui/ImportantLink";
 import { ContactForm } from "./ContactForm";

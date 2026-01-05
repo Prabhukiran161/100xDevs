@@ -1,6 +1,6 @@
 import Cib1 from "../assets/images/cib1.svg";
 import Cib2 from "../assets/images/cib2.svg";
-import { PODCAST_LINKS } from "../constants/PodcastLinks";
+import { PODCAST_LINKS } from "../constants/podcastLinks";
 import { PodcastCard } from "./ui/PodcastCard";
 
 export const Podcast = () => {
