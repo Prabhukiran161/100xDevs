@@ -10,11 +10,11 @@ export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header
-      className={`md:bg-[#FAFAFA] w-full ${
+      className={`md:bg-[#FAFAFA] w-full md:sticky top-0 z-50 ${
         isOpen ? "shadow-sm" : "md:shadow-sm"
       }`}
     >
-      <nav className="max-w-7xl mx-auto p-4">
+      <nav className="max-w-7xl mx-auto p-4 ">
         <div className=" flex justify-between text-sm font-medium">
           <div className="flex justify-between items-center gap-8">
             {/* 100x Devs*/}
